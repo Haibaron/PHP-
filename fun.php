@@ -50,3 +50,18 @@ function fact2($n) {
     return $r;
 }
 echo fact2(3);
+
+class cl {
+	
+	function __construct(argument)
+	{
+		# code...
+	}
+	private static $name;
+
+	public function name() {
+		echo $name .= 10;
+	}
+}
+$c = new cl();
+echo $c->name();
